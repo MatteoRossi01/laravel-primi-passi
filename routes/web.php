@@ -22,14 +22,14 @@ Route::get('/', function () {
 
 Route::get('/scopri', function () {
     $data2 = [
-        'stringa' => 'SCOPRI',
+        'stringa' => 'SCOPRI!',
     ];
     return view('scopri', $data2);
 });
 
 Route::get('/contatti', function () {
     $data3 = [
-        'stringa' => 'CONTATTI',
+        'stringa' => 'CONTATTI!',
     ];
     return view('contatti', $data3);
 });
